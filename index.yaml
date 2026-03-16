@@ -206,6 +206,37 @@ entries:
   nfs-server-provisioner:
   - apiVersion: v2
     appVersion: 3.0.0
+    created: "2026-03-16T13:03:43.869579684Z"
+    dependencies:
+    - name: nfs-server-provisioner
+      repository: https://kubernetes-sigs.github.io/nfs-ganesha-server-and-external-provisioner/
+      version: 1.8.0
+    description: nfs-server-provisioner is an out-of-tree dynamic provisioner for
+      Kubernetes. You can use it to quickly & easily deploy shared storage that works
+      almost anywhere.
+    digest: b4a7dcab8824d41317a7454e213e6fc8a660c656b8e5ff2be3a94d5659b6c1af
+    home: https://github.com/kubernetes-sigs/nfs-ganesha-server-and-external-provisioner
+    keywords:
+    - nfs
+    - storage
+    maintainers:
+    - email: kiall@macinnes.ie
+      name: kiall
+    - email: kvapss@gmail.com
+      name: kvaps
+    - email: joaocc-dev@live.com
+      name: joaocc
+    - name: Rancher
+      url: https://github.com/rancher
+    name: nfs-server-provisioner
+    sources:
+    - https://github.com/kubernetes-sigs/nfs-ganesha-server-and-external-provisioner/tree/master/deploy/helm
+    type: application
+    urls:
+    - https://github.com/TeroKeso/rodeo/releases/download/nfs-server-provisioner-1.8.0/nfs-server-provisioner-1.8.0.tgz
+    version: 1.8.0
+  - apiVersion: v2
+    appVersion: 3.0.0
     created: "2022-04-19T15:18:31.938131753Z"
     dependencies:
     - name: nfs-server-provisioner
@@ -711,4 +742,4 @@ entries:
     urls:
     - https://github.com/rancher/rodeo/releases/download/wordpress-11.0.19/wordpress-11.0.19.tgz
     version: 11.0.19
-generated: "2026-03-16T11:21:46.363752091Z"
+generated: "2026-03-16T13:03:44.075223861Z"
