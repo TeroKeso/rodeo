@@ -1,4 +1,4 @@
-# Rancher Rodeo Helm Chart Repository
+# This is a archive copy of Rancher Rodeo Helm Chart Repository
 
 This repository contains Helm charts that are used during Rancher Rodeo webinars and for demonstration purposes.
 
