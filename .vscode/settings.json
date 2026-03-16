@@ -1,8 +1,0 @@
-{
-    "chat.tools.terminal.autoApprove": {
-        "/^cd c:\\\\Users\\\\tkeso\\\\rodeo ; git add \\.github/workflows/release\\.yml \\.github/workflows/pr\\.yaml ; git commit -m \"ci: update GitHub Actions to modern versions\n\n- actions/checkout: v2 -> v4\n- azure/setup-helm: v1 -> v4 \\(Helm v3\\.17\\.0\\)\n- actions/setup-python: v2 -> v5 \\(Python 3\\.12\\)\n- helm/chart-testing-action: v2\\.0\\.1 -> v2\\.7\\.0\n- helm/chart-releaser-action: v1\\.2\\.1 -> v1\\.6\\.0\n- actions/setup-go: v2 -> v5 \\(Go 1\\.22\\)\n- stefanzweifel/git-auto-commit-action: v4 -> v5\n- Fix deprecated set-output syntax -> GITHUB_OUTPUT\n\nCo-authored-by: Copilot <223556219\\+Copilot@users\\.noreply\\.github\\.com>\"$/": {
-            "approve": true,
-            "matchCommandLine": true
-        }
-    }
-}
