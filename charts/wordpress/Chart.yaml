@@ -26,4 +26,4 @@ name: wordpress
 sources:
   - https://github.com/bitnami/bitnami-docker-wordpress
   - https://wordpress.org/
-version: 29.2.6
+version: 29.2.7
