@@ -9,13 +9,13 @@ This repository contains Helm charts that are used during Rancher Rodeo webinars
 Helm CLI:
 
 ```shell
-helm repo add rodeo https://rancher.github.io/rodeo
+helm repo add rodeo https://terokeso.github.io/rodeo/
 ```
 
 Rancher:
 
 * Go to the Apps Marketplace in Rancher
-* Add a new Chart Repository to the HTTP(S) URL `https://rancher.github.io/rodeo` without authentication
+* Add a new Chart Repository to the HTTP(S) URL `helm repo add https://terokeso.github.io/rodeo/` without authentication
 
 ### How to Contribute
 
